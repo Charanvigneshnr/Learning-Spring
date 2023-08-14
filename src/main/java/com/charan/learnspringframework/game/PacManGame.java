@@ -1,5 +1,8 @@
 package com.charan.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PacManGame implements GamingConsole {
     public void up() {
         System.out.println("Pacman is moving up");
